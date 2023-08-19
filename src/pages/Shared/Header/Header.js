@@ -4,11 +4,10 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const menuItems = (
     <>
-      <li className="font-semibold">
-        <Link className="font-semibold" to={"/"}>Home</Link>
-        <Link className="font-semibold" to={"/about"}>About</Link>
-        <Link className="font-semibold" to={"/service"}>Service</Link>
-        <Link className="font-semibold" to={"/contract"}>Contract</Link>
+      <li className="font-semibold flex lg:flex-row">
+        <Link className="font-bold text-xl" to={"/"}>Home</Link>
+        <Link className="font-bold text-xl" to={"/login"}>Login</Link>
+    
       </li>
     </>
   );
@@ -40,7 +39,7 @@ const Header = () => {
           </ul>
         </div>
         <Link to={"/"} className="btn btn-ghost normal-case text-xl">
-          <img src={Logo} alt="" srcset="" />
+          <img srcSet="" src={Logo} alt="" srcset="" />
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

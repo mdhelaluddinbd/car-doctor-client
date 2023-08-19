@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className="footer p-28 bg-stone-800 text-white ">
   <div>
-   <img src={Logo} alt="" srcset="" />
+   <img srcSet='' src={Logo} alt="" srcset="" />
     <p className='text-start'>Car Doctor Limited<br/>Delivering consistent technological solutions since 2007.</p>
   </div> 
   <div>
